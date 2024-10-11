@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    gap: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+img{
+    width: 200px;
+    width: 15vw;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+           
+h1{
+    text-align: center;
+}
+
+.Section{
+    margin: 50px;
+    font-size: 2rem;
+}
+
+ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.Logo{
+    font-size: 1.3rem;
+}
